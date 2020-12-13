@@ -2,10 +2,10 @@ Projeto faz parte do curso da digital innovation one
 
 DESCRIÇÃO
 
-Nesse projeto iremos construir um pokedéx (repositório de pokemon) através de uma Rest API feita com Spring Webflux, 
+Nesse projeto construimos um pokedéx (repositório de pokemon) através de uma Rest API feita com Spring Webflux, 
 o módulo reativo do Spring Boot. 
-Ao final do projeto você terá visto conceitos de programação reativa, handler, mono e flux e também criado uma Rest Api com seus dados 
+Ao final do projeto foi visto conceitos de programação reativa, handler, mono e flux e também criado uma Rest Api com seus dados 
 salvos no MongoDB!
 
-Em relação ao  projeto original foi adicionado as variveis:
-"Cor" e "Tamanho", para ajudar a caracter os tipos de Pokemons.
+Em relação ao  projeto original foi adicionado as variaveis:
+"Cor" e "Tamanho", para ajudar a caracterizar os tipos de Pokemons.
