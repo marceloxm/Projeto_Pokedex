@@ -21,7 +21,7 @@ public class Pokemon {
         super();
     }
 
-    public Pokemon(String id, String nome, String categoria, String habilidades, Double peso, String cor, Double tamanho ) {
+    public Pokemon(String id, String nome, String categoria, String habilidades, Double peso, String cor, Double tamanho) {
         this.id = id;
         this.nome = nome;
         this.categoria = categoria;
@@ -54,13 +54,13 @@ public class Pokemon {
         if (this == o) return true;
         if (!(o instanceof Pokemon)) return false;
         Pokemon pokemon = (Pokemon) o;
-        return  Objects.equals(id, pokemon.id) &&
+        return Objects.equals(id, pokemon.id) &&
                 Objects.equals(nome, pokemon.nome) &&
                 Objects.equals(categoria, pokemon.categoria) &&
                 Objects.equals(habilidades, pokemon.habilidades) &&
                 Objects.equals(peso, pokemon.peso) &&
                 Objects.equals(cor, pokemon.cor) &&
-                Objects.equals(tamanho, pokemon.tamanho) ;
+                Objects.equals(tamanho, pokemon.tamanho);
 
     }
 
@@ -126,7 +126,6 @@ public class Pokemon {
         this.tamanho = tamanho;
     }
 
-
-    }
+}
 
 }
